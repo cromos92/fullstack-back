@@ -6,6 +6,6 @@ with open("pedidos.txt", "w+", encoding="utf-8") as file:
     firstline = file.readline()
     secondline = file.readline()
     file.close()
-    assert firstline == "Pedro Gil de Diego\n"
-    assert secondline == "Michael Jordan\n"
+    assert firstline == "Pedro Gil de Diego,\n"
+    assert secondline == "Michael Jordan,\n"
     
