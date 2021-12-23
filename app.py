@@ -13,4 +13,4 @@ def mostrar_ruta():
     print(name,surname)
     return redirect ("http://localhost/templates/solicita_pedido")
 if __name__ == '__main__':
-    app.run(debug=True,port=5000)
+    
